@@ -9,5 +9,8 @@ public class ShooterDemo : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
+		
+		// Third party modules
+		PublicDependencyModuleNames.AddRange(new string[] { "HyperScaleRuntime", "HyperScaleEditor" });
 	}
 }
